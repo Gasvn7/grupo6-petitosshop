@@ -10,8 +10,11 @@ El negocio va dirigido a clientes de 18 o mayores que están interesados en adqu
 
 ## Integrantes
 Maria Eugenia Cartey Barbotto, argentina, radicada en la ciudad de San Nicolás, estudiante de la carrera de Abogacía, y amante de los animales.
+
 Nicolás Gaeto,
-Giannina Sammartino,
+
+Giannina Sammartino
+
 Gastón Moreno, argentino residente en la provincia de Buenos Aires, técnico electromecánico.
 
 ## Wireframes

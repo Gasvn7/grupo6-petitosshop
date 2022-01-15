@@ -21,7 +21,7 @@ Gastón Moreno, argentino residente en la provincia de Buenos Aires, técnico el
 empty : links
 
 ## Tableros de trabajo de cada sprint
-empty : links
+Sprint Nº1: https://6grupo666.atlassian.net/jira/software/projects/G6P/boards/3
 
 ## Referentes
 

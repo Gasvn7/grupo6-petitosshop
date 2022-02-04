@@ -1,0 +1,4 @@
+@import url('variables.css');
+@import url('globals.css');
+@import url('./specific/header.css');
+@import url('./specific/main.css');

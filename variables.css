@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
+:root {
+    /*Colores*/
+    --rojo: #F94144;
+    --naranja1: #F3722C;
+    --naranja2: #F8961E;
+    --naranja3: #F9C74F;
+    --verde: #80DD37;
+    /*Fuente*/
+    --rowdies: 'Rowdies', cursive;
+    /*Tamaños*/
+    --text-sl: 10px;
+    --text: 14px;
+    --text-md: 18px;
+    --text-lg: 22px;
+}

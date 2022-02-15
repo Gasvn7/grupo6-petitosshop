@@ -30,21 +30,19 @@
     }
     /*LOGO*/
     header .logo{
-        flex-grow: none;
-        padding-left: 50px;
+        padding: 0 50px;
         margin-bottom: 30px;
-        align-self: flex-start;
     }
     /*ICONS*/
     .icons{
-        justify-content:space-around;
+        justify-content:space-evenly;
     }
     
     .shopping-cart i, .user i{
         font-size: 2rem;
     }
     /*SEACHER*/
-    header .form{
+    header .form-search{
         display: flex;
         align-items: center;
         padding: 2px;
@@ -53,7 +51,7 @@
         flex-grow: 2;
     }
     
-    .form input{
+    .form-search input{
         padding: 10px;
         border: none;
         border-radius: 5px 0 0 5px;
@@ -68,7 +66,7 @@
         border-radius: 0 5px 5px 0;
     }
     
-    .form button{
+    .form-search button{
         display: flex;
         border: none;
         border-left: 1px solid rgb(226, 226, 226);
@@ -76,13 +74,13 @@
         cursor: pointer;
     }
     
-    header .form{
+    header .form-search{
         display: flex;
         align-items: center;
         padding: 2px;
         font-size: 11px;
     }
-    header .form .input{
+    header .form-search .input{
         background-color: #FFF;
         outline: none;
         flex-direction: column;
@@ -91,7 +89,7 @@
         box-sizing: inherit;
     }
     
-    header .form .submit{
+    header .form-search .submit{
         background-color: rgb(212, 78, 78);
         color: rgb(0, 0, 0);
     }
@@ -101,6 +99,9 @@
     }
     #menu-outer p{
         display: none;
+    }
+    .table .ul-center{
+        text-align: center;
     }
     ul {
         display: block;
@@ -112,7 +113,7 @@
     }
     
     li {
-        float: left;
+        float:left;
     }
     
     li a {

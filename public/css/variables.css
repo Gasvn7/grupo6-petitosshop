@@ -2,12 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 :root {
-    /*Colores*/
-    --rojo: #F94144;
-    --naranja1: #F3722C;
-    --naranja2: #F8961E;
-    --naranja3: #F9C74F;
-    --verde: #80DD37;
     /*Fuente*/
     --rowdies: 'Rowdies', cursive;
     /*Tamaños*/

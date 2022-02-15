@@ -16,9 +16,6 @@
 <body>
   <header class="header-product">
     <div class="row">
-      <div class="burger-menu">
-        <i class="fa fa-bars burger"></i>
-      </div>
       <div class="logo">
         <a href="/">
           <img
@@ -26,7 +23,7 @@
             alt="">
         </a>
       </div>
-      <form class="form" action="/productos" method="GET">
+      <form class="form-search" action="/productos" method="GET">
         <input type="text" class="input" placeholder="¿Que deseas buscar?">
         <button type="submit" class="submit"><i class="fa fa-search"></i></button>
       </form>
@@ -39,6 +36,7 @@
           </a>
         </div>
         <div class="shopping-cart">
+          <span>0</span>
           <a href="">
             <i class="fas fa-shopping-cart">
               <h4>Compras</h4>
@@ -76,8 +74,6 @@
         <label for="psw"><b>Contraseña</b></label>
         <input class="input" type="password" placeholder="Ingresa tu contraseña" name="psw" required>
 
-        <p>Creando tu cuenta estás aceptando los <a href="#" style="color:dodgerblue">Terminos y privacidad</a>.</p>
-
         <div class="clearfix">
           <button class="login-button" type="submit" value="Iniciar sesión" name="">
             Iniciar sesión
@@ -89,27 +85,13 @@
               </svg>
             </span>
           </button>
-          <a href="" class="register-button">
-            register
+          <a href="/register" class="register-button">
+            Registrarme
           </a>
         </div>
       </div>
     </form>
   </main>
-  <section class="correo">
-    <div class="caja-correo">
-      <h3>RECIBI TODAS LAS OFERTAS</h3>
-      <p>¿Quieres recibir nuestras ofertas? ¡Registrate ya mismo y comenzá a disfrutarlas!</p>
-      <div class="entrada-correo">
-        <input type="email" name="correo" id="correo" placeholder="Tu email">
-        <input type="submit" name="contact" id="contact" class="send">
-      </div>
-      <form class="form" action="/productos" method="GET">
-        <input type="text" class="input" placeholder="Buscar productos, marcas y más">
-        <button type="submit" class="submit"><i class="fa fa-search"></i></button>
-      </form>
-    </div>
-  </section>
 </body>
 
 </html>

@@ -1,0 +1,13 @@
+.main-products{
+    margin-top: 40px;
+}
+/*ESPACIO EN BLANCO*/
+.product-details{
+    display:flex;
+    padding: 0 15px;
+}
+.product-details 
+.img-sm{
+    width: 100%;
+    max-width: 300px;
+}

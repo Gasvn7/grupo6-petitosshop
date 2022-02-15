@@ -46,23 +46,21 @@
         </div>
     </header>
     <!----------------------------------Buttons bar-------------------------------------->
-    <div id="menu-outer">
+    <section id="menu-outer">
         <div class="table">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#news">News</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#about">About</a></li>
-            </ul>
+            <nav class="button-links">
+                <a href="/">Productos</a>
+                <a href="/">Servicios</a>
+                <a href="/">Contacto</a>
+                <a href="/">Acerca</a>
+            </nav>
+            <div class="burger-menu">
+                <i class="fa fa-bars burger"></i>
+            </div>
         </div>
-        <div class="burger-menu">
-            <i class="fa fa-bars burger"></i>
-        </div>
-    </div>
-    <main>
-        <div class="espacio-enblanco">
-            <p>ESPACIO DE RELLENO</p>
-        </div>
+    </section>
+    <!--------PRODUCTOS----------->
+    <main class="main-products">
         <div class="product-details">
             <section class="product-imgs">
                 <ul>
@@ -90,20 +88,6 @@
             </section>
         </div>
     </main>
-    <section class="correo">
-        <div class="caja-correo">
-            <h3>RECIBI TODAS LAS OFERTAS</h3>
-            <p>¿Quieres recibir nuestras ofertas? ¡Registrate ya mismo y comenzá a disfrutarlas!</p>
-            <div class="entrada-correo">
-                <input type="email" name="correo" id="correo" placeholder="Tu email">
-                <input type="submit" name="contact" id="contact" class="send">
-            </div>
-            <form class="form" action="/productos" method="GET">
-                <input type="text" class="input" placeholder="Buscar productos, marcas y más">
-                <button type="submit" class="submit"><i class="fa fa-search"></i></button>
-            </form>
-        </div>
-    </section>
 </body>
 
 </html>

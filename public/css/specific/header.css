@@ -15,7 +15,6 @@
         flex-wrap: wrap;
         align-items: center;
         text-align: center; 
-
     }
 
     /*---------------------------Bruger Menu------------------*/
@@ -71,7 +70,7 @@
     .user i{
         color: #000000;
         padding: 10px 0;
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     /*--------------------------Shopping-cart i-------------------*/
@@ -84,7 +83,7 @@
     .shopping-cart i{
         color: #000000;
         padding: 10px 0;
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     /*-------------DISPLAY NONE-----------------*/
@@ -94,7 +93,7 @@
         color: #333333;
         height: 54px;
     }
-    .table {
+    .table .button-links{
         display:none;
     }
     /*Searcher-none*/

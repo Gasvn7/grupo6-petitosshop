@@ -26,6 +26,7 @@
                 <input type="text" class="input" placeholder="¿Que deseas buscar?">
                 <button type="submit" class="submit"><i class="fa fa-search"></i></button>
             </form>
+
             <div class="icons">
                 <div class="user">
                     <a href="/login">
@@ -46,21 +47,19 @@
         </div>
     </header>
     <!----------------------------------Buttons bar-------------------------------------->
-    <div id="menu-outer">
+    <section id="menu-outer">
         <div class="table">
-            <div class="ul-center">
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#news">News</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#about">About</a></li>
-                </ul>
+            <nav class="button-links">
+                <a href="/">Productos</a>
+                <a href="/">Servicios</a>
+                <a href="/">Contacto</a>
+                <a href="/">Acerca</a>
+            </nav>
+            <div class="burger-menu">
+                <i class="fa fa-bars burger"></i>
             </div>
         </div>
-        <div class="burger-menu">
-            <i class="fa fa-bars burger"></i>
-        </div>
-    </div>
+    </section>
     <!----------------------------------PORTADA------------------------------------>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <section class="portada">
@@ -118,7 +117,7 @@
                     <b>Producto</b><br>
                     $$$$$$</br>
                     <br>
-                    <a class="comprar" href="/detallesDeProductos">Comprar</a>
+                    <a class="comprar" href="/">Comprar</a>
                     <a class="ver" href="/detallesDeProductos">Ver</a>
                 </div>
             </div>
@@ -222,13 +221,9 @@
         <div class="caja-correo">
             <h3>RECIBI TODAS LAS OFERTAS</h3>
             <p>¿Quieres recibir nuestras ofertas? ¡Registrate ya mismo y comenzá a disfrutarlas!</p>
-            <div class="entrada-correo">
-                <input type="email" name="correo" id="correo" placeholder="Tu email">
-                <input type="submit" name="contact" id="contact" class="send">
-            </div>
-            <form class="form" action="/productos" method="GET">
-                <input type="text" class="input" placeholder="Buscar productos, marcas y más">
-                <button type="submit" class="submit"><i class="fa fa-search"></i></button>
+            <form class="form-search" action="/productos" method="GET">
+                <input type="email" name="correo" class="input" id="correo" placeholder="Tu email">
+                <button type="submit" class="submit"><i placeholder="Enviar">Enviar</button>
             </form>
         </div>
     </section>

@@ -1,16 +1,15 @@
-body{
-  font-family: sans-serif;
-}
 
-main{
+
+.main-register-login{
   display: flex;
   justify-content: center;
+  padding: 2rem;
+  font-family: sans-serif;
 }
 
 .form-login{
   align-content: center;
   display: flex;
-  padding: 2rem;
 }
 
 .input{

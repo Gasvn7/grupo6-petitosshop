@@ -3,9 +3,9 @@
     /*SECCIONES*/
     .selecionar-por-mascota .card:hover{
         /*  transform: translateY(-15px); */
-          box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
-      }
-      .selecionar-por-mascota .card{
+        box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    }
+    .selecionar-por-mascota .card{
         box-shadow: none;
     }
       /*PRODUCTOS*/
@@ -33,18 +33,33 @@
         padding: 20px;
     }
     /*ICONS*/
-    .icons{
+    header div .icons{
+        display: flex;
+        text-align: center;
+        flex-grow: 1;
+        align-self: center;
+        align-self: flex-start;
+        margin: 15px 0;
+    }
+    .row .icons{
         justify-content:space-evenly;
     }
-    
-    .shopping-cart i, .user i{
-        font-size: 2rem;
-    }
+
     /*SEACHER*/
     .form-search{
         display: flex;
         align-items:flex-start;
         padding: 2px;
+        font-size: 11px;
+        width: 30%;
+        flex-grow: 2;
+    }
+    .form-email{
+        display: flex;
+        align-items:flex-start;
+        padding-top: 50px;
+        padding-left: 5px;
+        padding-right: 5px;
         font-size: 11px;
         width: 30%;
         flex-grow: 2;
@@ -73,6 +88,9 @@
         font-size: 15px;
     }
     /*ButtonBar-none*/
+    #menu-outer {
+        height: 54px;
+    }
     .table .button-links{
         display: flex
     }

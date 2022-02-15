@@ -16,6 +16,9 @@
 <body>
     <header class="header-product">
         <div class="row">
+            <div class="burger-menu">
+                <i class="fa fa-bars burger"></i>
+            </div>
             <div class="logo">
                 <a href="/">
                     <img src="https://www.logomaker.com/api/main/images/1j+ojFVDOMkX9Wytexe43D6khvGCpRFJnx7NwXs1M3EMoAJtliQpjvJr8vs4"
@@ -36,10 +39,10 @@
                     </a>
                 </div>
                 <div class="shopping-cart">
-                    <span>0</span>
                     <a href="">
                         <i class="fas fa-shopping-cart">
                             <h4>Compras</h4>
+                            <span>0</span>
                         </i>
                     </a>
                 </div>
@@ -55,9 +58,6 @@
                 <a href="/">Contacto</a>
                 <a href="/">Acerca</a>
             </nav>
-            <div class="burger-menu">
-                <i class="fa fa-bars burger"></i>
-            </div>
         </div>
     </section>
     <!----------------------------------PORTADA------------------------------------>
@@ -221,10 +221,12 @@
         <div class="caja-correo">
             <h3>RECIBI TODAS LAS OFERTAS</h3>
             <p>¿Quieres recibir nuestras ofertas? ¡Registrate ya mismo y comenzá a disfrutarlas!</p>
-            <form class="form-search" action="/productos" method="GET">
-                <input type="email" name="correo" class="input" id="correo" placeholder="Tu email">
-                <button type="submit" class="submit"><i placeholder="Enviar">Enviar</button>
-            </form>
+            <div class="email-formpart">
+                <form class="form-email" action="" method="GET">
+                    <input type="email" name="correo" class="input" id="correo" placeholder="Tu email">
+                    <button type="submit" class="submit"><i class="fas fa-arrow-right"></i></button>
+                </form>
+            </div>
         </div>
     </section>
 </body>

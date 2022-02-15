@@ -177,10 +177,7 @@
         width: 100%;
         height: 300px;
         background-color: #ffb700;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+
     }
     .correo h3{
         color: white;
@@ -188,32 +185,47 @@
     .correo p{
         color: white;
         font-family: 'Poppins', sans-serif;
+        text-align: center;
     }
-    .correo-email{
-        color: pink;
-        box-sizing: inherit;
-        font-size: 30px;
-        color: black;
-        border-radius: 10px;
-        height: 40px;
-        width: 100%;
-        margin-top: 60px;
-        border: 0;
-    }
-    .correo-enviar{
-        position: absolute;
-        background: pink;
-        width: 50px;
-        height: 30px;
-        border: 0;
- 
-    }
-    .entrada-correo{
+    .caja-correo{
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content:center;
     }
-    /*RESPONSIVE*/
-     
+    .email-formpart{
+        text-align: -webkit-center;
+    }
+        .form-email{
+            display: flex;
+            align-items:flex-start;
+            padding: 30px;
+            width: 70%;
+            font-size: 11px;  
+            flex-grow: 2;
+        }
+        .form-email .input{
+            background-color: #FFF;
+            outline: none;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-sizing: inherit;
+            padding: 11px;
+            border: none;
+            border-radius: 5px 0 0 5px;
+            font-size: 15px;
+            width: 100%;
+        }
+        .form-email .submit{
+            background-color: #333333;
+            color: rgb(218, 218, 218);
+            border: none;
+            cursor: pointer;
+            padding: 11px;
+            border: none;
+            border-radius: 0 5px 5px 0;
+            font-size: 15px;
+        }
     /* Celulares */
     @media (min-width: 361px){
         /*SECCIONES*/
@@ -228,15 +240,3 @@
             margin: 10px;
         }
     } 
-    .entrada-correo{
-        display:flex;
-        justify-content:center;
-    }
-    input[type=submit] {
-        padding:5px 15px; 
-        background:#ccc; 
-        border:0 none;
-        cursor:pointer;
-        -webkit-border-radius: 5px;
-        border-radius: 5px; 
-    }

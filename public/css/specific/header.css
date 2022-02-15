@@ -1,0 +1,105 @@
+/*------------------------HEADER PRODUCTOS-----------------------------------*/   
+
+    .header-product {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 1.5rem;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(233, 188, 8);
+    }
+
+    .header-product .row{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center; 
+
+    }
+
+    /*---------------------------Bruger Menu------------------*/
+
+    .burger-menu{
+        text-align: center;
+        flex-grow: 1;
+    }
+
+    .burger-menu i{
+        color: #ffb700;
+        padding: 10px;
+        font-size: 3rem;
+        border: #ffb700 solid 3px;
+        border-radius: 10px;
+        height: 54px;
+    }
+
+    /*--------------------------Logo--------------------*/
+
+    header .logo{
+        font-family: 'Pacifico', cursive;
+        text-align: center;
+        flex-grow: 2;
+        margin: 15px 0;
+        max-width: 250px;
+        max-height: 250px;
+    }
+    header .logo img{
+        width: 100%;
+        height: 100%;
+
+    }
+    header .logo a{
+        text-decoration: none;
+        color: #ffb700;
+    }
+    /*-------------------Iconos--------------------*/
+    header div .icons{
+        display: flex;
+        text-align: center;
+        flex-grow: 1;
+        align-self: center;
+        align-self: flex-start;
+        margin: 15px 0;
+    }
+    /*-------------------------User i----------------------*/
+    .user{
+        text-align: center;
+        align-self: flex-start;
+        margin: 15px 0;
+    }
+    
+    .user i{
+        color: #000000;
+        padding: 10px 0;
+        font-size: 1.5rem;
+    }
+
+    /*--------------------------Shopping-cart i-------------------*/
+
+    .shopping-cart{
+        text-align: center;
+        align-self: flex-start;
+        margin: 15px 0;
+    }
+    .shopping-cart i{
+        color: #000000;
+        padding: 10px 0;
+        font-size: 1.5rem;
+    }
+
+    /*-------------DISPLAY NONE-----------------*/
+    /*ButtonBar-none*/
+    #menu-outer {
+        background-color:#333333;
+        color: #333333;
+        height: 54px;
+    }
+    .table {
+        display:none;
+    }
+    /*Searcher-none*/
+    .form {
+        display: none;
+    }
+

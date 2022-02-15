@@ -1,0 +1,18 @@
+
+/*ESPACIO EN BLANCO*/
+.espacio-enblanco{
+    display:block;
+    text-align: justify;
+    height: 50px;    
+    background-color: blue;
+}
+/*ESPACIO EN BLANCO*/
+.product-details{
+    display:flex;
+    padding: 0 15px;
+}
+.product-details 
+.img-sm{
+    width: 100%;
+    max-width: 300px;
+}

@@ -1,3 +1,44 @@
+@media (min-width: 480px){
+    .icons{
+        display:block;
+    }
+    /*-------------------Iconos--------------------*/
+
+    .shopping-cart i, .user i,.shopping-cart span{
+        font-size: 1.5rem;
+    }
+    /*-------------------------User i----------------------*/
+    .user{
+        text-align: center;
+        align-self: flex-start;
+        margin: 15px 0;
+    }
+    
+    .user i{
+        color: #000000;
+        padding: 10px 0;
+    }
+
+    .user h4 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    /*--------------------------Shopping-cart i-------------------*/
+
+    .shopping-cart{
+        text-align: center;
+        align-self: flex-start;
+        margin: 15px 0;
+    }
+    .shopping-cart i{
+        color: #000000;
+        padding: 10px 0;
+    }
+    .shopping-cart h4 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
 @media (min-width: 769px){
     /*----------HOME-------*/
     /*SECCIONES*/
@@ -30,7 +71,8 @@
     }
     /*LOGO*/
     header .logo{
-        padding: 20px;
+        margin-top: 10px;
+        padding: 0 20px;
     }
     /*ICONS*/
     header div .icons{
@@ -38,7 +80,6 @@
         text-align: center;
         flex-grow: 1;
         align-self: center;
-        align-self: flex-start;
         margin: 15px 0;
     }
     .row .icons{
@@ -102,6 +143,7 @@
     }
     
     .table a {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: white;
         text-align: center;
         padding: 16px;

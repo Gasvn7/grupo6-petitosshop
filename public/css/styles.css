@@ -1,6 +1,6 @@
 @import url('variables.css');
 @import url('globals.css');
-@import url('./specific/header.css');
+@import url('./partials/header.css');
 @import url('home.css');
 @import url('login.css');
 @import url('products.css');

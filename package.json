@@ -1,5 +1,24 @@
 {
   "dependencies": {
     "express": "^4.17.2"
-  }
+  },
+  "name": "grupo6-petitosshop",
+  "description": "Proyecto integrador equipo 6 - Digital House",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gasvn7/grupo6-petitosshop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gasvn7/grupo6-petitosshop/issues"
+  },
+  "homepage": "https://github.com/Gasvn7/grupo6-petitosshop#readme"
 }

@@ -3,7 +3,7 @@
      .portada{
      background-image: url(/img/home/slider5.jpg);
      height: 400px;
-     background-position: bottom;
+     background-position: center 10%;
      background-size: cover;
      background-attachment: fixed;
      }
@@ -19,22 +19,7 @@
      .petitospetshop{
       font-family: 'Pacifico', cursive;
       font-size: 45px;
-     }
-     .boton-portada{    
-     font-size: 10px;
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
-     width: 100px;
-     height: 20px;
-     align-items: center;
-     justify-content: center;
-     display: block;
-     margin: 0 auto;
-     background: rgb(194, 61, 154);
-     color: rgb(255, 255, 255);
-     text-decoration: none;
-     border-radius: 20px;
-     flex-wrap: wrap;
-     align-self: auto;
+      text-shadow:  2px 0 0 rgb(194, 61, 154), -2px 0 0 rgb(194, 61, 154), 0 2px 0 rgb(194, 61, 154), 0 -2px 0 rgb(194, 61, 154), 1px 1px rgb(194, 61, 154), -1px -1px 0 rgb(194, 61, 154), 1px -1px 0 rgb(194, 61, 154), -1px 1px 0 rgb(194, 61, 154);
      }
      .boton-portada:hover{
      background: #cb3a63;

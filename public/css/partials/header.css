@@ -1,0 +1,71 @@
+/*------------------------HEADER PRODUCTOS-----------------------------------*/   
+
+    .header-product {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 1.5rem;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(233, 188, 8);
+    }
+
+    .header-product .row{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center; 
+        max-height: 150px;
+        justify-content: space-around;
+    }
+    /*---------------------------Bruger Menu------------------*/
+
+    .burger-menu{
+        text-align: center;
+    }
+
+    .burger-menu i{
+        color: #333333;
+        padding: 5px;
+        font-size: 1.5rem;
+        background-color: rgb(187, 151, 8);
+        border-radius: 5px;
+        border: 1px solid #333333;
+    }
+
+    /*--------------------------Logo--------------------*/
+
+    header .logo{
+        font-family: 'Pacifico', cursive;
+        text-align: center;
+        max-width: 250px;
+        max-height: 250px;
+    }
+    header .logo img{
+        width: 100%;
+        height: 100%;
+    }
+    header .logo a{
+        text-decoration: none;
+    }
+    
+    
+    /*-------------DISPLAY NONE-----------------*/
+    /*Icons-none*/
+    .icons{
+        display:none;
+    }
+    /*ButtonBar-none*/
+    #menu-outer {
+        background-color:#333333;
+        color: #333333;
+        height: 5px;
+    }
+    .table .button-links{
+        display:none;
+    }
+    /*Search-none*/
+    .form-search{
+        display: none;
+    }
+

@@ -29,6 +29,9 @@ Gastón Moreno, argentino residente en la provincia de Buenos Aires, técnico el
 ## Tableros de trabajo de cada sprint
 - Sprint Nº1: https://6grupo666.atlassian.net/jira/software/projects/G6P/boards/3
 
+## Enlaces a Gits relacionados
+- Git EJS implementado y ordenado: https://github.com/Gasvn7/petitosordenado/tree/master
+
 ## Referentes
 https://centropet.com -- Diseño de página principal agradable a la vista, funcional y completa con los productos y servicios. 
 
